@@ -4,13 +4,13 @@ import { useState } from "react"
 const BlogList = (props) => {
     const tasks = props.tasks;
     const title = props.title;
-    const [checked, setChecked] = useState(false);
+    // const [checked, setChecked] = useState(false);
     const [status, setStatus] = useState('Ongoing')
     // const handleDelete = props.handleDelete;
 
-    const handleChange = () => {
-        setStatus('Completed')
-    }
+    // const handleChange = () => {
+    //     setStatus('Completed')
+    // }
     
     
     return (
@@ -20,11 +20,11 @@ const BlogList = (props) => {
                 <div className="blog-preview" key = {task.id}>
                     <Link to={`/tasks/${task.id}`}>
                         <h2>{task.title}</h2>
-                        {/* <p style={{color: "#333"}}>Pending</p> */}
+                        <p style={{color: "#333"}}>category: {task.taskCategoryId}</p>
                         
                         {/* <button onClick={()=>handleDelete(task.id)}>Delete</button> */}
                     </Link>
-                    <p>{status}</p>
+                    {/* <p>{status}</p> */}
                     {/* <button  onClick={()=>handleChange()}>Done</button> */}
                 </div>
             ))}

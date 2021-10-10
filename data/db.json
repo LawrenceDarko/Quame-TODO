@@ -19,7 +19,6 @@
       "title": "Learn React Hooks",
       "description": "Learn all the new awesome react hooks...",
       "taskCategoryId": "Personal",
-      "status": "Ongoing",
       "comments": "This is comment 1",
       "dateStarted": "2021-09-24",
       "dateEnded": "2021-09-24"
@@ -29,7 +28,6 @@
       "title": "Learn React Custom Hooks",
       "description": "Learn how to create a custom hook...",
       "taskCategoryId": "Personal",
-      "status": "Ongoing",
       "comments": "This is comment 2",
       "dateStarted": "2021-09-24",
       "dateEnded": "2021-09-24"
@@ -39,7 +37,6 @@
       "title": "Go to Work",
       "description": "Wake up early and go to work...",
       "taskCategoryId": "Work",
-      "status": "Ongoing",
       "comments": "This is comment 3",
       "dateStarted": "2021-09-24",
       "dateEnded": "2021-09-24"
@@ -48,7 +45,6 @@
       "title": "This is a work Task",
       "description": "This is the task description",
       "taskCategoryId": "Work",
-      "status": "Ongoing",
       "comments": "This is work comment",
       "dateStarted": "2021-10-08T12:37:20.579Z",
       "dateEnded": "2021-10-09T12:37:20.000Z",
@@ -58,11 +54,19 @@
       "title": "Another Personal task",
       "description": "This is the task description",
       "taskCategoryId": "Personal",
-      "status": "Ongoing",
       "comments": "This is my comment",
       "dateStarted": "2021-10-16T12:38:50.000Z",
       "dateEnded": "2021-10-17T12:38:50.000Z",
       "id": 5
+    },
+    {
+      "title": "One task more",
+      "description": "This is a test tax",
+      "taskCategoryId": "Personal",
+      "comments": "this is the comment",
+      "dateStarted": "2021-10-10T14:37:03.560Z",
+      "dateEnded": "2021-10-12T14:37:03.000Z",
+      "id": 6
     }
   ]
 }
